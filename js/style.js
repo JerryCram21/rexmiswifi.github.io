@@ -16,6 +16,8 @@ $('.visible.example .ui.sidebar')
 //don't know them???
 
 */
+$(document).ready(function(){
+
 $("body").ready(function(){
     $(".home").click(function(){
         $(".content_2").fadeOut(1000)
@@ -112,4 +114,5 @@ $('.group').click(function() {
     $('.gridmenu .vmc img').hide();
     $('.gridmenu .home img').hide();
     });
+});
 });
